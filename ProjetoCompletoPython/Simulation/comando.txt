@@ -1,0 +1,50 @@
+Este simulado tem o objetivo de avaliar suas habilidades em programação usando a linguagem Python, abrangendo acesso a banco de dados, tratamento de variáveis, testes unitários e refatoração de código. O tempo total para a conclusão do simulado é de 90 minutos. Responda as questões de forma completa e precisa.
+
+Parte 1: Acesso a Banco de Dados (25 pontos)
+
+Pergunta 1: Suponha que você esteja desenvolvendo um aplicativo de gerenciamento de livros e precise acessar um banco de dados SQLite. Explique como você criaria uma conexão com o banco de dados, consultaria a tabela "Livros" para recuperar todos os registros e imprimiria os resultados.
+
+Parte 2: Tratamento de Variáveis (20 pontos)
+
+Pergunta 2: Dado um dicionário com nomes e idades, escreva uma função em Python que receba o dicionário como entrada e retorne a média das idades. Certifique-se de lidar com casos em que o dicionário esteja vazio.
+
+Parte 3: Teste Unitário (25 pontos)
+
+Pergunta 3: Você possui uma classe chamada Calculator com métodos add e subtract. Escreva testes unitários utilizando o módulo unittest do Python para verificar a precisão desses métodos.
+
+Parte 4: Refatoração de Código (30 pontos)
+
+Pergunta 4: Abaixo está um trecho de código Python que verifica se um número é primo. No entanto, o código não está bem organizado. Refatore o código para melhorar sua legibilidade e estrutura, mantendo a mesma funcionalidade.
+
+python
+Copy code
+def is_prime(n):
+if n <= 1:
+return False
+for i in range(2, n):
+if n % i == 0:
+return False
+return True
+Tempo Restante: 10 minutos
+
+Critérios de Avaliação:
+
+Parte 1 (Acesso a Banco de Dados):
+
+Conexão correta com o banco de dados (7 pontos)
+Consulta SQL e recuperação de registros (10 pontos)
+Impressão adequada dos resultados (8 pontos)
+Parte 2 (Tratamento de Variáveis):
+
+Cálculo correto da média das idades (10 pontos)
+Tratamento para dicionário vazio (10 pontos)
+Parte 3 (Teste Unitário):
+
+Testes abrangentes para add e subtract (15 pontos)
+Estrutura correta dos testes utilizando unittest (10 pontos)
+Parte 4 (Refatoração de Código):
+
+Melhoria na legibilidade e estrutura (15 pontos)
+Manutenção da funcionalidade original (10 pontos)
+Uso de convenções de nomenclatura apropriadas (5 pontos)
+Lembre-se de que a pontuação total é de 100 pontos. Boa sorte!
